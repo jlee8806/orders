@@ -1,0 +1,21 @@
+{
+  "name": "question",
+  "description": "",
+  "main": "server.js",
+  "authors": [
+    "solly0702 <solly0702@gmail.com>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-cookies": "^1.5.3"
+  }
+}

@@ -1,0 +1,18 @@
+
+<h1>Welcome {{user.name}}</h1>
+
+<table class='table table-striped'>
+  <tr>
+    <th>Question</th>
+    <th>Answers</th>
+    <th>Action</th>
+  </tr>
+  <tr ng-repeat='question in questions'>
+    <td>{{question.question}}</td>
+    <td>{{question.count}}</td>
+    <td><a href="#/question/{{question._id}}">Show</a> <a href="#/answer/{{question._id}}">Answer</a></td>
+  </tr>
+
+
+
+</table>

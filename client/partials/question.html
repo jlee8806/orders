@@ -1,0 +1,10 @@
+{{user.name}}
+<h1>{{question.question}}</h1>
+<h4>{{question.descrip}}</h4>
+<table class='table table-striped'>
+  <tr ng-repeat='i in question.answers| orderBy: "-likes"'>
+    <td></td>
+    <td>{{i.answer}} ---- {{i.supp}}</td>
+    <td>{{i.likes}}</td><td><button ng-click='like(i._id)'>Like</button></td>
+  </tr>
+</table>
